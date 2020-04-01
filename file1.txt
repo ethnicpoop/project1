@@ -1,1 +1,59 @@
 My first GIT project
+
+pc@ethnicpoop MINGW64 ~
+$ git init project1
+Initialized empty Git repository in C:/Users/pc/project1/.git/
+
+pc@ethnicpoop MINGW64 ~
+$ cd project1
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git add file1.txt
+fatal: pathspec 'file1.txt' did not match any files
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ create file.txt
+bash: create: command not found
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ ^C
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ ^C
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git add file1.txt
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git commit -m"My first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'pc@ethnicpoop.(none)')
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git config --global user.email "githuigituku@gmail.com"
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git config --global user.name "ethnicpoop"
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git add file1.txt
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$ git commit -m"My first commit"
+[master (root-commit) 5716104] My first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+pc@ethnicpoop MINGW64 ~/project1 (master)
+$
+
