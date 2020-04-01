@@ -57,3 +57,4 @@ $ git commit -m"My first commit"
 pc@ethnicpoop MINGW64 ~/project1 (master)
 $
 
+""testing staging to commit""
